@@ -1,0 +1,453 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.topo-bar {
+
+    width: 100%;
+    padding: 12px 0px;
+    background-color: #16344D;
+    color: white;
+}
+
+.conteudo {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    pad: 0 20px;
+}
+
+
+nav {
+    background-color: #131D33;
+    width: 100%;
+}
+
+.secao {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.conteudo2 {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.imagem-fundo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #131d33de;
+    z-index: 1;
+}
+
+.conteudo2 img {
+    background-position: center;
+    background-size: cover;
+
+}
+
+.conteudocentral {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 2;
+    padding: 20px;
+    max-width: 700px;
+}
+
+.conteudocentral h2 {
+    font-size: 3.9em;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.conteudocentral p {
+    font-size: 2.em;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+.conteudocentral button {
+    background-color: #00bae6;
+    color: black;
+    padding: 12px 30px;
+    border: none;
+    font-size: 0.8.em;
+    cursor: pointer;
+
+}
+
+.topo {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    max-height: 50px;
+
+}
+
+.links .menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.links .menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.barapesquisa form {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.barapesquisa input {
+    padding: 12px 60px;
+    border: 1px solid #131D33;
+    font-size: 14px;
+    width: 200px;
+    transition: 0.3s ease;
+}
+
+.barapesquisa input:focus {
+    outline: none;
+    color: white;
+    box-shadow: 0 0 3px #131D33;
+}
+
+.barapesquisa button {
+    padding: 8px 16px;
+    background-color: #0a0a0a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+}
+
+.barapesquisa button:hover {
+    background-color: #5f6872;
+}
+
+.icones {
+    display: flex;
+    gap: 10px;
+}
+
+.icones li {
+    list-style: none;
+    color: white;
+}
+
+/*footer*/
+.geral {
+    background-color: rgb(184, 184, 182);
+}
+
+.copyright {
+    display: flex;
+    padding: 20px 20px;
+    justify-content: space-between;
+    background-color: rgb(184, 184, 182);
+    margin: 0px auto;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+
+}
+
+.payment {
+    width: 30px;
+    display: flex;
+    margin-right: 60px;
+}
+
+.footerima {
+    max-height: 50px;
+}
+
+/*FOOTER 2*/
+.descisao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 100px 100px;
+    
+}
+
+img {
+    max-height: 100%;
+}
+
+.logotipagem {
+    width: 45%;
+}
+
+.categorias li {
+    list-style: none;
+}
+.categorias ul{
+    line-height: 1px;
+}
+.categorias p {
+    font-size: 30px;
+    color: #39bad5;
+    font-style: bold;
+}
+
+.categorias h3 {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500px;
+}
+
+.categorias li {
+    line-height: 30px;
+}
+
+.categorias li {
+    color: white;
+}
+
+.categorias h3 {
+    color: white;
+}
+
+.centroajuda li {
+    list-style: none;
+}
+
+.centroajuda li {
+    color: white;
+}
+
+.centroajuda p {
+    font-size: 30px;
+    color: #39bad5;
+    font-style: bold;
+}
+
+.centroajuda li {
+    line-height: 30px;
+}
+
+.centroajuda h3 {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500px;
+}
+
+.empresa li {
+    list-style: none;
+}
+
+.empresa li {
+    color: white;
+    line-height: 30px;
+}
+
+.empresa p {
+    font-size: 30px;
+    color: #39bad5;
+    font-style: bold;
+
+}
+
+.empresa h3 {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500px;
+}
+
+footer {
+    background-image: url(9077.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.overylay2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #131d33ea;
+    z-index: 0;
+    /* abaixo do conteúdo */
+    top: 0;
+    left: 0;
+}
+
+footer * {
+    position: relative;
+    z-index: 1;
+    /* garante que texto e links fiquem acima do overlay */
+}
+
+.iconesfooter {
+    display: flex;
+}
+
+.logotipagem p {
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    line-height: 30px;
+    font-weight: 500;
+    
+}
+
+.logotipagem img {
+    max-width: 40%;
+}
+
+.geralfoo {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding-top: 35px;
+}
+
+/*BANEFICIOS*/
+.geralspenso {
+    background-color: #16344D;
+    padding: 55px 0;
+}
+
+.suspenso {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    max-width: 1190px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border-right: 2px solid #00bae6;
+}
+
+.item:last-child {
+    border-right: none;
+    /* remove borda do último */
+}
+
+.Icon1 i {
+    color: white;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Texto1 h4 {
+    color: #00bae6;
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.Texto1 p {
+    color: white;
+    font-size: 15px;
+    line-height: 1.4;
+}
+.iconesfooter i{
+    font-size: 18px;
+    color: white;
+    line-height: 50px;
+}
+.iconesfooter{
+    display: flex;
+    gap: 15px;
+}
+.right i{
+    color: #00bae6;
+    font-size: 15px;
+}
+.right{
+    display: flex;
+    gap: 15px;
+}
+.icones i{
+    color: #00bae6;
+    font-size: 18px;
+}
+.icones{
+    display: flex;
+    gap: 20px;
+}
+.barapesquisa form{
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+.barapesquisa input {            
+    padding: 11px 50px 11px 50px;
+}
+
+.barapesquisa button {
+    padding: 11px 20px 11px 20px;
+    background: #3f3f3f;
+    cursor: pointer;
+}
+.barapesquisa  i{
+    font-size: 14px;
+}
+
+.conteudocentral i{
+    font-size: 19px;
+}
+.conteudocentral button{
+    align-items: center;
+}
